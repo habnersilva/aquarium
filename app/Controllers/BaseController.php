@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-use Aquarium\Http\Controller;
+use Framework\Aquarium\Http\Controller;
 
 class BaseController extends Controller {
 

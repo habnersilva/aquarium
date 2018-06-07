@@ -11,7 +11,7 @@
     }],
     "autoload":{
         "psr-4":{
-            "Aquarium\\": "vendor/Aquarium/",
+            "Framework\\Aquarium\\": "Framework\\Aquarium",
             "App\\": "app"
         }
     }

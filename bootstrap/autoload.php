@@ -11,7 +11,7 @@ if(ltrim($base, '/')){
     $_SERVER['REQUEST_URI'] = substr($_SERVER['REQUEST_URI'], strlen($base));
 }
 
-$route = new Aquarium\Routing\Route();
+$route = new Framework\Aquarium\Routing\Route();
 
 require_once __DIR__ . "/../app/routes.php";
 
