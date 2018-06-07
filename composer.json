@@ -1,0 +1,19 @@
+{
+    "name": "aquarium",
+    "require":{
+        "php": ">=5.6",
+        "klein/klein": "^2.1"
+    },
+    "minimum-stability": "alpha",
+    "authors": [{
+            "name": "Habner Silva",
+            "email": "habner@aptec.com.br"
+    }],
+    "autoload":{
+        "psr-4":{
+            "Aquarium\\": "vendor/Aquarium/",
+            "App\\": "app"
+        }
+    }
+    
+}
